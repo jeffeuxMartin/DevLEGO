@@ -21,7 +21,7 @@ git clone https://github.com/voidful/DevLEGO.git
 
 ### Step 2: Create a Docker Network
 
-```lua
+```bash
 docker network create deblego
 ```
 
@@ -29,13 +29,13 @@ docker network create deblego
 
 #### Essential Changes:
 
-- Dockerfile -  change the base images
-- docker-compose.yml - change username, password, container name, mount volume, etc.
+- `Dockerfile` - change the base images
+- `docker-compose.yml` - change username, password, container name, mount volume, etc.
 
 #### Optional Changes:
 
-- ports.sh - port setting
-- version.sh - version setting
+- `ports.sh` - port setting
+- `version.sh` - version setting
 
 ### Step 4: Build Nginx Proxy Manager
 
